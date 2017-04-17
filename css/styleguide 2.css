@@ -81,7 +81,7 @@ a:visited{
 }
 
 a:hover{
-  color: rgba(150, 0, 100, 1);
+  color: rgba(250, 0, 100, 1);
   text-decoration: none;
 }
 
@@ -104,44 +104,44 @@ a:active{
 .g__column-1{ width: 8.3333%;}
 
 .text1{
-  font-family: Dosis;
+  font-family: Inconsolata;
   font-size: 12px;
   margin-bottom: 10px;
 }
 .text2{
-  font-family: Dosis;
+  font-family: Inconsolata;
   font-size: 16px;
   margin-bottom: 10px;
 }
 .text3{
-  font-family: Dosis;
+  font-family: Inconsolata;
   font-size: 24px;
   margin-bottom: 10px;
 }
 .text4{
-  font-family: Dosis;
+  font-family: Inconsolata;
   font-size: 30px;
   margin-bottom: 10px;
 }
 .text5{
-  font-family: Dosis;
+  font-family: Inconsolata;
   font-size: 36px;
   margin-bottom: 10px;
 }
 .text6{
-  font-family: Dosis;
+  font-family: Inconsolata;
   font-size: 42px;
   margin-bottom: 10px;
 }
 
 .nav1{
   color: rgba(242, 242, 242, 1);
-  background-color: rgba(250,0,100,1);
+  background-color: rgba(150,0,100,1);
 }
 
 .nav2{
   color: rgba(242, 242, 242, 1);
-  background-color: rgba(0, 200, 250, 1);
+  background-color: rgba(0, 100, 250, 1);
 }
 
 .nav3{
