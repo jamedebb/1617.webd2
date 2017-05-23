@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: rgba(242, 242, 242, 1)
+}
+
+.text5{
+    margin: 50px auto;
+    margin-top: 70px;
+    width: 400px;
+    text-align: center;
+} 
+
+p{
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.text6{
+    margin-top: 50px; 
+    text-align: center;
+}
+
+#center{
+    width: 100%;
+
+}
+
+.center{
+    margin: 20px 0; 
+}

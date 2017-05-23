@@ -1,0 +1,60 @@
+
+
+input{
+    border-radius: 10px;
+    border: 2px solid rgba(250, 0, 100, 1);
+    margin: 10px 0px;
+    padding: 0 5px;
+    background-color: rgba(242, 242, 242, 1);
+    display: inline;
+    outline: none;
+    transition: 0.5s;
+}
+
+input:focus{
+    border: 2px solid #0099FF;
+    transition: 0.5s;
+}
+
+
+
+textarea{
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: 2px solid rgba(250, 0, 100, 1);   
+    outline: none;
+    transition: 0.5s;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+textarea:focus{
+        border: 2px solid #0099FF;
+        transition: 0.5s;
+}
+
+.submit{
+    color: rgba(250, 0, 100, 1);
+    transition: 0.5s;
+}
+
+.submit:hover{
+    color: #0099FF;
+    border: 2px solid #0099FF;
+    transition: 0.5s;
+}
+
+footer{
+    margin-top: 0px;
+}
+
+#divMap{
+    margin-top:100px; 
+    height: 500px;
+}
+
+@media screen and (max-width: 730px) {
+
+    
+
+}
+

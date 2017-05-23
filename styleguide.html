@@ -46,7 +46,13 @@
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/styleguide.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
+    <link rel="stylesheet" media="all" href="css/nav.css">
+    <link rel="stylesheet" media="all" href="css/lists.css">
+    <link rel="stylesheet" media="all" href="css/nav.css">
+    <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/forum.css">
+    <link rel="stylesheet" media="all" href="css/image.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 </head>
@@ -56,8 +62,23 @@
   <div class="g__container">
     <div class="g__row">
 
-      <div class="g__column g__column-12">
-        <h1>Styleguide</h1>
+      <div class="g__column g__column-3">
+          <nav class="nav1"> 
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">offerte</a></li>
+            <li><a href="">werk</a></li>
+          </ul>
+        </nav>
+      </div>
+       <div class="g__column g__column-9">
+          <nav class="nav2"> 
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">offerte</a></li>
+            <li><a href="">werk</a></li>
+          </ul>
+        </nav>
       </div>
 
 			<div class="g__column g__column-7">
@@ -86,53 +107,49 @@
 
 			<div class="g__column g__column-5">
 
-        <div class ="text1">This is text</div>
-        <div class ="text2">This is text</div>
-        <div class ="text3">This is text</div>
-        <div class ="text4">This is text</div>
-        <div class ="text5">This is text</div>
-        <div class ="text6">This is text</div>
+        <div class ="text1">This is text font</div>
+        <div class ="text2">This is alternate text font</div>
+        <div class ="text3">"This is quote text"</div>
+        <div class ="text4">This is h1 text</div>
+        <div class ="text5">This is an h1 design</div>
+        <a class ="text6">This is titel homepage design</a>
       
       </div>
 
       <div class="g__column g__column-5">
 
-        <nav class="nav1"> 
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">offerte</a></li>
-            <li><a href="">werk</a></li>
-          </ul>
-        </nav>
+        <form action="/action_page.php" method="get">
+             First name: </br>
+             <input type="text" name="fname"><br>
+             Last name: </br>
+             <input type="text" name="lname"><br>
+             Beschrijving: </br>
+             <textarea rows="5" cols="50" name="description">
 
-        <nav class="nav2"> 
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">offerte</a></li>
-            <li><a href="">werk</a></li>
-          </ul>
-        </nav>
+             </textarea><br>
+             <input class="submit" type="submit" value="Submit">
+        </form>
 
-        <nav class="nav3"> 
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">offerte</a></li>
-            <li><a href="">werk</a></li>
-          </ul>
-        </nav>
+      </div>
+      <div class="g__column g__column-12 center">
+        <div class="align"><img class="cirkel" src="">
 
-         <nav class="nav4"> 
-          <ul>
-            <li><a href="styleguide.html">style1</a></li>
-            <li><a href="styleguide 2.html">style2</a></li>
-            <li><a href="styleguide 3.html">style3</a></li>
-          </ul>
-        </nav>
+        </div>
 
         
-      
-      </div>
+         <div class="align"><img class="cirkel" src="">
 
+        </div>
+
+        
+         <div class="align"><img class="cirkel" src="">
+
+        </div>
+        
+
+        
+
+      </div>
     </div>
   </div>
 </div>

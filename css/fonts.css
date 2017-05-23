@@ -1,1 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Inconsolata|Montserrat|Open+Sans|Oswald|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Lemon/Milk|Montserrat|Open+Sans|Oswald|Raleway|Roboto');
+
+.title{
+    font-family: LemonMilk;
+}
+
+h1{
+    font-family: 'OpenSans';
+    font-weight: lighter;
+}
+
+.text1{
+  font-family: 'OpenSans';
+}
+.text2{
+  font-family: 'Roboto';
+}
+.text3{
+  font-family: 'OpenSans';
+  font-style: italic;
+}
+.text4{
+  font-family: 'OpenSans';
+}
+.text5{
+  font-family: 'OpenSans';
+}
+.text6{
+  font-family: LemonMilk;
+}

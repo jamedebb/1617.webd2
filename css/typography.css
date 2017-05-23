@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
-  line-height: 1.42;
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,3 +13,61 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   line-height: 1.42;
 }
+
+.text1{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.text2{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.text3{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.text4{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.text5{
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  color: #EC008C;
+  border-bottom: 2px solid #0099FF;
+  
+}
+.text6{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 10px 5%;
+    width: 400px;
+    border: 3px solid #EC008C; 
+    color: #0099FF;
+    transition: 0.5s;
+}
+.title{
+    color: #0099FF;
+    font-size: 35px;
+}
+
+.nl{
+  border: none;
+}
+
+.klein{
+ 
+  font-size: 18px;
+}
+
+footer{
+
+  margin-top: 100px;
+  padding: 30px;
+  background-color: rgba(50,50,50,1);
+  text-align: center;
+
+}
+
